@@ -1,32 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ifStatement : MonoBehaviour {
 
-	public int num1;
-	public int num2;
-	public int value;
+	public Text input;
+	public string password = "password";
 
-	public bool canPlay = true;
-
-	public string input;
-	private string password = "password";
-
-	void Start () {
-		if(num1 + num2 == value)
-		{
-			print(value);
+	void Update () {
+		if(input.text == password) {
+			print("You know the password.");
 		}
 
-		if (canPlay)
-		{
-			print("Play");
-		}
-
-		if (input == password)
-		{
-			print("You know the password");
-		}
 	}
+
+
 }
+// Use an if statement to compare the truth of one thing to another
+// If there's truth to a statement, the code will run, otherwise nothing will happen
