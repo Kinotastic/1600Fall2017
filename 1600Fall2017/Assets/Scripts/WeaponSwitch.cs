@@ -6,8 +6,8 @@ public class WeaponSwitch : MonoBehaviour {
 
 	public string[] weapons;
 	
-	public void Start (){
-		switch (weapons[0])
+	public void MyWeaponSwitch (int i){
+		switch (weapons[i])
 		{
 			case "Missile":
 				print("Missile");
@@ -15,6 +15,10 @@ public class WeaponSwitch : MonoBehaviour {
 
 			case "Plasma":
 				print("Plasma");
+				break;
+
+			default:
+				print("You have no other weapons.");
 				break;
 		}
 	}
