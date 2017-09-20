@@ -17,7 +17,6 @@ public class Loops : MonoBehaviour {
 			yield return new WaitForSeconds(0.1f);
 		}
 		print("End Game");
-		return null;
 	}
 
 }
