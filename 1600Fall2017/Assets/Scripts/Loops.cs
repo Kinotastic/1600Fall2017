@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class Loops : MonoBehaviour {
 
-	public string[] pickups;
+	public bool canPlay = true;
 
-	// Use this for initialization
-	void Start () {
-		
+	void Start() {
+		StartCoroutine(PlayGame());
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	IEnumerator PlayGame () {
+
+		while (canPlay) {
+			print("Playing");
+			yield return new WaitForSeconds(0.1f);
+		}
+		print("End Game");
+		return null;
 	}
+
 }
