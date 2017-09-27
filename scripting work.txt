@@ -5,3 +5,4 @@
 Tips
 *Be able to competantly talk about C#
 *Don't study, write!!!!!!!
+*Set aside 30 minutes per class day
