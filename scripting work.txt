@@ -1,0 +1,8 @@
+*Will be grading at the end of the week (Friday?)
+*Create a charcter script that collides with a powerup (optional)
+*try to write it as short and small as possible
+
+Tips
+*Be able to competantly talk about C#
+*Don't study, write!!!!!!!
+*Set aside 30 minutes per class day
