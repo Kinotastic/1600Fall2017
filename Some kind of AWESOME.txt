@@ -11,3 +11,4 @@ TheMinttu
 (Wow this is a month late)
 (Do I really need 30 commits? yeesh)
 Hayao Miyazaki
+Jed Henry
