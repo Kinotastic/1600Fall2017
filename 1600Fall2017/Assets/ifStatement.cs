@@ -4,8 +4,22 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ifStatement : MonoBehaviour {
-//If statements execute a statement if a bool expresison is true
+/*Else clauses apply to the immediate predecing "if statement" in the block
+	For example:
+	if (true)
+		if (false)
+			Console.WriteLine();
+		else
+			Console.WriteLine();
 
+You can also nest an if statement within an else clause
+	For example:
+	if (2 + 2 == 5)
+		Console.WriteLine ("Does Not Compute");
+	else
+		if (2 + 2 == 4)
+			Console.WriteLine ("Computes");
+*/
 	public Text input;
 	public bool canPlayGame = false;
 	public string password = "password";
@@ -23,5 +37,3 @@ public class ifStatement : MonoBehaviour {
 		}
 	}
 }
-// Use an if statement to compare the truth of one thing to another
-// If there's truth to a statement, the code will run, otherwise nothing will happen
