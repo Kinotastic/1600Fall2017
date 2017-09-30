@@ -14,14 +14,14 @@ public class MathOperators : MonoBehaviour {
 	public float remainderResult;
 
 	void Update () {
-		addResult = num1 + num2;
-		subResult = num1 - num2;
-		multResult = num1 * num2;
+		addResult = num1 + num2; //adds both vars together
+		subResult = num1 - num2; //subtracts the second var from the first
+		multResult = num1 * num2; //multiplies both vars together
 		if(num1 != 0 && num2 != 0) {
-			divResult = num1 / num2;
+			divResult = num1 / num2; //divides the first var by the second
 		} else {
 			print("Can't divide by zero!");
 		}
-		remainderResult = num1 % num2;
+		remainderResult = num1 % num2; //denotes the remainder of the divresult
 	}
 }
