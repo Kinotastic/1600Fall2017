@@ -2,25 +2,40 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//Syntax is the grammar of scripting
 public class WeaponSwitch : MonoBehaviour {
-
 	public string[] weapons;
-	//Each line must end with a semicolon
-	//Open brackets must always be closed
-	
 	public void MyWeaponSwitch (int i){
 		switch (weapons[i])
 		{
 			case "Missile":
 				print("Missile");
 				break;
-				//Identifiers must always be capitalized
-
 			case "Plasma":
 				print("Plasma");
 				break;
 
+			/* As an example of more switches:
+				public int charisma = 3;
+
+				void Greet ()
+				{
+					switch (charisma)
+					{
+					case 3:
+						print ("Let me take you back to my place.")'
+						break;
+					case 2:
+						print ("You're kinda cute.");
+						break;
+					case 1:
+						print ("Go away.")
+						break;
+					default:
+						print ("Insufficient Charisma level.")
+						break;
+					}
+				}
+			*/
 			default:
 				print("You have no other weapons.");
 				break;
