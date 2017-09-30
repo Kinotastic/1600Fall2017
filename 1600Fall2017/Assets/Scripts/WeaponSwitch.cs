@@ -14,7 +14,9 @@ public class WeaponSwitch : MonoBehaviour {
 				print("Plasma");
 				break;
 
-			/* As an example of more switches:
+			/* Switches are used to compare a single variable to a series of constants.
+			
+			As an example of more switches:
 				public int charisma = 3;
 
 				void Greet ()
