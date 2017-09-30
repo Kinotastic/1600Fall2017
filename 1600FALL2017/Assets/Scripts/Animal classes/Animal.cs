@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Animal : MonoBehaviour {
+//Classes group together certain variables hierarchically 
+//Classes inherit from eachother
 
-	// Use this for initialization
-	void Start () {
-		
+public class Animal : MonoBehaviour {
+    public void Eat () { 
+        print(this.name + " Eats");
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	public void Sleep () { 
+		print(this.name + " Sleeps");
+    }   
+    public void Start() {
+        Eat();
+		Sleep();
+
+    }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic; 
 using UnityEngine; 
  
-public class Fish : Animal { 
+public class Fish : Animal {
     public void Swim () { 
         print(this.name + " Swims"); 
     }   

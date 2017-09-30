@@ -2,7 +2,7 @@
 using System.Collections.Generic; 
 using UnityEngine; 
  
-public class Bird : Animal { 
+public class Bird : Animal {
  
     public void Start() { 
         Fly(); 
