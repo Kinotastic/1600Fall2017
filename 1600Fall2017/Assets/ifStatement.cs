@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ifStatement : MonoBehaviour {
+//If statements execute a statement if a bool expresison is true
 
 	public Text input;
 	public bool canPlayGame = false;
