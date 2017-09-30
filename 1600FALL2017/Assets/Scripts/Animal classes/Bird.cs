@@ -5,7 +5,6 @@ using UnityEngine;
 public class Bird : Animal { 
  
     public void Start() { 
-        base.Start(); 
         Fly(); 
     } 
     void Fly () { 

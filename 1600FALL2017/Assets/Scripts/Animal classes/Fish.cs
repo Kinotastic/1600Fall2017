@@ -6,8 +6,7 @@ public class Fish : Animal {
     public void Swim () { 
         print(this.name + " Swims"); 
     }   
-    public void Start() { 
-        base.Start(); 
+    public void Start() {
         Swim(); 
     }
 }
